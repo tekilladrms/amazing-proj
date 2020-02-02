@@ -1,0 +1,75 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif; 
+    background-image: url("../img/BACKGROUND.jpg");  
+    
+}
+header{
+    background-image: url("../img/SLANTED.png"), url("../img/HERO-IMAGE.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+li{
+    list-style-type: none;
+}
+.hero{
+    padding-top: 85px;
+    padding-bottom: 400px;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.logo__rectangle{
+    font-family: 'Fira Sans';
+    font-weight: 800;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+.logo__rectangle{
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    
+}
+.header__about{
+    font-family: 'Fira Sans';
+    font-weight: 300; 
+    color: #000; 
+}
+.header__title{
+    font-size: 72px;
+    
+}
+.header__text{
+    font-size: 30px;
+    width: 570px;
+    line-height: 45px;
+}
+.menu__logo{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.menu__text{
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+}
+.logo{
+    margin-bottom: 190px;
+}
+
+
+
