@@ -71,5 +71,45 @@ a:hover{
     margin-bottom: 190px;
 }
 
+.about__photo{
+    background-image: url("../img/PHOTO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about{
+    background-color: #f3f1ef;
+}
+
+.offer__title{
+    font-family:'Fira Sans';
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    color: #666666;
+    line-height: 0;
+}
+.offer__text{
+    max-width: 490px;
+    font-family:'Fira Sans';
+    font-weight: 300;
+    font-size: 36px;
+    color: #666666;
+    line-height: -25;
+    margin-left: 50px;
+    margin-bottom: 115px;
+}
+.gallery__item{
+    padding: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.gallery__item a img{
+    width: 100%;
+}
+
+
 
 
