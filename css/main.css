@@ -10,7 +10,6 @@ header{
     background-image: url("../img/SLANTED.png"), url("../img/HERO-IMAGE.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    
 }
 li{
     list-style-type: none;
@@ -18,12 +17,10 @@ li{
 .hero{
     padding-top: 85px;
     padding-bottom: 400px;
-    
 }
 
 a:hover{
     text-decoration: none;
-    
 }
 
 .bold{
@@ -105,11 +102,65 @@ a:hover{
     padding: 0;
     margin-right: -15px;
     margin-left: -15px;
+    height: 515px;
 }
 .gallery__item a img{
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.background__blue{
+    background-color: #3f729b;
+}
+.instagram__content{
+    margin-left: 180px;
+}
+.instagram__title{
+    font-family:'Fira Sans';
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 117px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    color: #f9f9f9;
+    line-height: 0;
+}
+.instagram__text{
+    max-width: 490px;
+    font-family:'Fira Sans';
+    font-weight: 300;
+    font-size: 36px;
+    color: #f9f9f9;
+    line-height: -25;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    max-width: 530px;
+}
+.instagram__button{
+    color: #f9f9f9;
+    border-color: #f9f9f9;
+    margin-left: 50px;
+}
+button{
+    border-radius: 28px;
+    background: transparent;
+    padding: 10px 24px 10px 24px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    text-align: center;
+}
+.music__container{
+    background-image: url("../img/BG_MUSIC.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-
+.blank__space{
+    background-color: #282b2f;
+    width: 400px;
+    height: 100%;
+}
 
 
