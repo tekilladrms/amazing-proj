@@ -76,17 +76,18 @@ a:hover{
 .about{
     background-color: #f3f1ef;
 }
-
-.offer__title{
+.common__title{
     font-family:'Fira Sans';
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 0;
+}
+.offer__title{
+    color: #666666;
     margin-top: 100px;
     margin-bottom: 35px;
     margin-left: 50px;
-    color: #666666;
-    line-height: 0;
 }
 .offer__text{
     max-width: 490px;
@@ -112,35 +113,28 @@ a:hover{
 .background__blue{
     background-color: #3f729b;
 }
-.instagram__content{
-    margin-left: 180px;
-}
-.instagram__title{
-    font-family:'Fira Sans';
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 117px;
+
+.instagram__title, .spotify__title, .itunes__title{
+    color: #f9f9f9;  
+    margin-top: 100px;
     margin-bottom: 35px;
-    margin-left: 50px;
-    color: #f9f9f9;
-    line-height: 0;
+    margin-left: 25%;
 }
-.instagram__text{
+.instagram__text, .spotify__text, .itunes__text{
     max-width: 490px;
     font-family:'Fira Sans';
     font-weight: 300;
     font-size: 36px;
     color: #f9f9f9;
     line-height: -25;
-    margin-left: 50px;
+    margin-left: 25%;
     margin-bottom: 30px;
     max-width: 530px;
 }
 .instagram__button{
     color: #f9f9f9;
     border-color: #f9f9f9;
-    margin-left: 50px;
+    margin-left: 25%;
 }
 button{
     border-radius: 28px;
@@ -149,18 +143,85 @@ button{
     text-transform: uppercase;
     font-family: 'Fira Sans';
     font-weight: 700;
-    text-align: center;
+    
+    
 }
 .music__container{
     background-image: url("../img/BG_MUSIC.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
+    
+    
 }
 
 .blank__space{
     background-color: #282b2f;
-    width: 400px;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+
+.video{
+    background-color: #212227;
+    margin-right: -15px;
+    margin-left: -45px;
+    padding-left: 20%;
+    padding-bottom: 70px;
+    height: 55vh;
+    min-height: 400px;
+}
+.video__title{
+    color: #2ebd59;
+    padding-top: 27%;
+    
+    
+}
+.video__about{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2ebd59;
+    margin-top: 15%;
+}
+.video__text{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f9f9;
+    width: 240px;
+    margin-top: 15%;
+}
+.video__button{
+    color: #2ebd59;
+    border-color: #2ebd59;
+    margin-top: 15%;
+}
+i{
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.background__green{
+    background-color: #2ebd59;
+    
+}
+.spotify__button, .itunes__button{
+   margin-left: 25%; 
+   color: #f9f9f9;
+   letter-spacing: 0.2em;
+   
+}
+.container__spotify, .container__itunes{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+.background__grey{
+    background-color: #282b2f;
+}
+.container__itunes{
+    margin-left: -40px;
 }
 
 
